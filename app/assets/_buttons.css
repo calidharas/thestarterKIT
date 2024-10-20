@@ -1,0 +1,11 @@
+:root {
+  --mainColor: #0f20dac6;
+}
+
+html {
+/* 
+  This CSS property sets the color of an element to the main color defined in the root or parent element.
+  The variable --mainColor should be defined in the :root or parent element's scope.
+*/
+background-color: var(--mainColor);
+}
